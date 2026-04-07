@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -22,3 +23,8 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+=======
+E-commerce-website-/
+node_modules/
+.env
+>>>>>>> 13686f41dd3deb84d36e8aff9aa1a75726b3adc8
