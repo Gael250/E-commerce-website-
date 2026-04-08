@@ -9,6 +9,7 @@ import Register from './pages/Register';
 import NotFound from './pages/NotFound';
 import Navbar from './components/Navbar';
 import ProtectedRoute from './components/ProtectedRoute';
+import Footer from './components/Footer';
 
 function App() {
     return (
@@ -27,6 +28,7 @@ function App() {
 
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }
